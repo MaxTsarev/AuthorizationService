@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  app1:
+    image: 'sha256:5936ad1637cfc1d0c8ce8cd3b9b971a2f6bfd97e63d83d4e4f4f01cf00d48361'
+    build: ./
+    ports:
+      - '8080:8080'
